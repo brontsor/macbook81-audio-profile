@@ -16,10 +16,12 @@ Two files:
   and the microphone both show as `CS4208 Analog`.
 - `51-macbook81-speaker.conf` is the PipeWire equalizer. It creates the
   sink `MacBook Speaker (EQ)` and feeds `MacBook_Speaker_Raw`. The
-  coefficients come from a published macOS layout description. They were
-  not measured on this machine, and they were not A/B'd against the raw
-  speakers. The speakers sound good with it in the path. That is the
-  claim, and no more.
+  coefficients are the macOS layout100 speaker EQ shipped in
+  [thomas-shirley/macbook8.1-speaker-driver](https://github.com/thomas-shirley/macbook8.1-speaker-driver)
+  (`51-macbook81-speaker.conf`). That file calls them a published
+  layout100 description. They were not measured on this machine, and
+  they were not A/B'd against the raw speakers. The speakers sound
+  good with them in the path. That is the claim, and no more.
 
 ## Install
 
