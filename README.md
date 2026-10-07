@@ -46,6 +46,10 @@ bash revert.sh
 systemctl --user restart wireplumber
 ```
 
+## For agents
+
+Read `AGENTS.md` before changing this tree.
+
 ## License
 
 MIT. See `LICENSE`. The equalizer coefficients are not original to this
